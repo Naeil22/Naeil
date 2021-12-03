@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Naeil/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Naeil/static/js/main.3b46138e.chunk.js",
+    "main.js.map": "/Naeil/static/js/main.3b46138e.chunk.js.map",
+    "runtime-main.js": "/Naeil/static/js/runtime-main.f6e117fd.js",
+    "runtime-main.js.map": "/Naeil/static/js/runtime-main.f6e117fd.js.map",
+    "static/js/2.d6ae4bb0.chunk.js": "/Naeil/static/js/2.d6ae4bb0.chunk.js",
+    "static/js/2.d6ae4bb0.chunk.js.map": "/Naeil/static/js/2.d6ae4bb0.chunk.js.map",
+    "static/js/3.33894df2.chunk.js": "/Naeil/static/js/3.33894df2.chunk.js",
+    "static/js/3.33894df2.chunk.js.map": "/Naeil/static/js/3.33894df2.chunk.js.map",
+    "index.html": "/Naeil/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Naeil/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d6ae4bb0.chunk.js.LICENSE.txt": "/Naeil/static/js/2.d6ae4bb0.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Naeil/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6e117fd.js",
+    "static/js/2.d6ae4bb0.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.3b46138e.chunk.js"
+  ]
+}
