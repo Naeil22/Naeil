@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import { ethers } from "ethers";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [provider, setProvider] = useState(null);
+    const [signer, setSigner] = useState(null);
+
+    async function logIn() {
+        await window.ethereum.enable()
+        const provider = new ethers.providers.Web3Provider(window.ethereum);
+        const signer = provider.getSigner();
+        console.log(await provider.getBlockNumber())
+    }
+
+    return (
+        <div>
+            <header>Welcome</header>
+            <body>
+                <button onClick={logIn}>Connect</button>
+            </body>
+        </div>
+    );
 }
 
 export default App;
